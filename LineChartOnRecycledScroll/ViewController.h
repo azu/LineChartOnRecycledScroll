@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DARecycledScrollView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <DARecycledScrollViewDataSource>
 
 @end
