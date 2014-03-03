@@ -37,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		11CC5E02FF5944A39712C14A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		17B5C2E73CED3AB8078FE496 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
 		17B5C506A8A567500D2D126D /* LineChartCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartCellView.h; sourceTree = "<group>"; };
 		17B5C790280EE8FA8B5AD175 /* LineChartCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartCellView.m; sourceTree = "<group>"; };
 		17B5CD398F324168D75F7915 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
@@ -107,6 +108,7 @@
 				17B5CD398F324168D75F7915 /* Podfile */,
 				C6546C89C01E4F6E86BC1705 /* Pods-LineChartOnRecycledScroll.xcconfig */,
 				11CC5E02FF5944A39712C14A /* Pods.xcconfig */,
+				17B5C2E73CED3AB8078FE496 /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};

@@ -1,0 +1,17 @@
+PODS:
+  - ArsScale (0.0.2)
+  - DARecycledScrollView (1.0.2)
+
+DEPENDENCIES:
+  - ArsScale (from `https://github.com/azu/ArsScale.git`)
+  - DARecycledScrollView
+
+EXTERNAL SOURCES:
+  ArsScale:
+    :git: https://github.com/azu/ArsScale.git
+
+SPEC CHECKSUMS:
+  ArsScale: cc779a5b141c6a2c668ce218f17552141d221d2c
+  DARecycledScrollView: b5a522916eb7e06a331bd05351e9c4a3b897760e
+
+COCOAPODS: 0.29.0
