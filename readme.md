@@ -8,6 +8,8 @@
     * can handling a huge range of value.
 * Calculate the position of value by [ArsScale](https://github.com/azu/ArsScale "ArsScale").
 
+BarChart => [azu/DrawLineLiz](https://github.com/azu/DrawLineLiz "azu/DrawLineLiz")
+
 ## Installation
 
 ```sh
