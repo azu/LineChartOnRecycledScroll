@@ -12,6 +12,5 @@
 @property (nonatomic) NSNumber *prevY;
 @property (nonatomic) NSNumber *currentY;
 @property (nonatomic) NSNumber *nextY;
-
 @property (nonatomic, weak) ArsScaleLinear *yScale;
 @end

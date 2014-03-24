@@ -10,7 +10,7 @@
 #import "ViewController.h"
 #import "DARecycledTileView.h"
 #import "LineChartCellView.h"
-#import "ArsDashFunction.h"
+#import "ArsMinMax.h"
 
 @interface ViewController ()
 @property(weak, nonatomic) IBOutlet DARecycledScrollView *plotScrollView;
@@ -50,9 +50,10 @@
     chartCellView.yScale = self.yScale;
     NSUInteger arraySize = [self.heightArray count];
     if (index == arraySize) {
-        [chartCellView setNeedsDisplay];
+        [chartCellView setHidden:YES];
         return;
     }
+    [chartCellView setHidden:NO];
     if (index > 0) {
         chartCellView.prevY = self.heightArray[index - 1];
     }
